@@ -1,9 +1,5 @@
 
 $(document).ready(function() {
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-        $('.selectpicker').selectpicker('mobile');
-    }
-    function Currency(){}
     function loadAjax(IdOfBlock,che, addresshtm) {
         var obj = $(IdOfBlock).find(".block__info-items");
         $.ajax({
@@ -29,7 +25,6 @@ $(document).ready(function() {
         val = $('.selectpicker option:selected').val(),
         bl = $(".block"),
         addresshtm = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC" + val;
-    console.log("val="+val);
     sp.change(function () {
         for (i=0; i<3; i++) {
             var x = $(bl[i]).find("input"),
@@ -39,7 +34,7 @@ $(document).ready(function() {
         }
 
     });
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        $('.selectpicker').selectpicker('mobile');
+    };
 })
-
-// (che)?(CheckCheck("#"+ $(bl[i]).attr("id"))):false;
-// var x = $(IdOfBlock).find(".block__info-indicator");

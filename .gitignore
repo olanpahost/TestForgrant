@@ -6,7 +6,8 @@
 # IDEs and editors
 /.idea
 temp.txt
-/app/img/coin.svg
+/temp
+
 
 # misc
 npm-debug.log

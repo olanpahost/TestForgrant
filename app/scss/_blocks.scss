@@ -11,19 +11,22 @@
   border-radius: 12px;
   display: flex;
   flex-direction: column;
+
 }
 
 #Ethereum {
-  background:url("../img/bg_ether.png") no-repeat top;
+  background:url("../img/bg_ether_.png") no-repeat top;
+  background-size: 100% auto;
 }
 
 #Litecoin {
-  background:#353535 url("../img/bg_lith.png") no-repeat;
-
+  background:#353535 url("../img/bg_lith_.png") no-repeat;
+  background-size: 100% auto;
 }
 
 #Bitcoin {
-  background:#331304 url("../img/bg_bitc_.png") no-repeat;
+  background:#331304 url("../img/bg_bitc.png") no-repeat;
+  background-size: 100% auto;
 }
 
 .block__h3 {
