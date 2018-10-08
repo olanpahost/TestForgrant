@@ -1,0 +1,50 @@
+div.row.blocks
+    - var names = ["Hour change", "Day change", "Week change", "Month change"]
+    .block#Ethereum
+        h3.block__h3 Ethereum
+        .block__info
+            .block__info-price
+                p.price Price
+                 span.price-numbers &dollar;22 526.92
+            .block__info-indicator
+                p.persentchange Percent change
+                div.switch
+                 input(type="checkbox" name="ether" id="ether")
+                 label(for="ether").slider.round
+            .block__info-items
+                for n in names
+                    .line.d-flex.justify-content-between
+                        p.block__info-text=n
+                        p.number(class= n.split(' ')[0]) +266&percnt;
+    .block#Litecoin
+        h3.block__h3 Litecoin
+        .block__info
+            .block__info-price
+                p.price Price
+                    span.price-numbers $22 526.92
+            .block__info-indicator
+                p.persentchange Percent change
+                div.switch
+                    input(type="checkbox" name="litecoin" id="lite")
+                    label(for="lite").slider.round
+            .block__info-items
+                for n in names
+                    .line.d-flex.justify-content-between
+                        p.block__info-text=n
+                        p.number(class= n.split(' ')[0]) +266%
+    .block#Bitcoin
+        h3.block__h3 Bitcoin
+        .block__info
+            .block__info-price
+                p.price Price
+                    span.price-numbers $22 526.92
+            .block__info-indicator
+                p.persentchange Percent change
+                div.switch
+                    input(type="checkbox" name="bit" id="bit" checked)
+                    label(for="bit").slider.round
+            .block__info-items
+                for n in names
+                    .line.d-flex.justify-content-between
+                        p.block__info-text=n
+                        p.number(class= n.split(' ')[0]) +266%

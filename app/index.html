@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper__select">
+      <div class="select__section">
+        <div class="container-fluid">
+          <div class="row select__menu">
+            <h2 class="col-lg-8 col-md-6 col-sm-12 select__header">Select currency to exchange:</h2>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <select class="selectpicker" id="selectpicker">
+                <option class="select__option">USD</option>
+                <option class="select__option">EUR</option>
+                <option class="select__option">RUB</option>
+                <option class="select__option">GBP</option>
+              </select>
+            </div>
+          </div>
+          <div class="row blocks">
+            <div class="block" id="Ethereum">
+              <h3 class="block__h3">Ethereum</h3>
+              <div class="block__info">
+                <div class="block__info-price">
+                  <p class="price">Price<span class="price-numbers">&dollar;22 526.92</span></p>
+                </div>
+                <div class="block__info-indicator">
+                  <p class="persentchange">Percent change</p>
+                  <div class="switch">
+                    <input type="checkbox" name="ether" id="ether">
+                    <label class="slider round" for="ether"></label>
+                  </div>
+                </div>
+                <div class="block__info-items">
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Hour change</p>
+                    <p class="number Hour">+266&percnt;</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Day change</p>
+                    <p class="number Day">+266&percnt;</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Week change</p>
+                    <p class="number Week">+266&percnt;</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Month change</p>
+                    <p class="number Month">+266&percnt;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block" id="Litecoin">
+              <h3 class="block__h3">Litecoin</h3>
+              <div class="block__info">
+                <div class="block__info-price">
+                  <p class="price">Price<span class="price-numbers">$22 526.92</span></p>
+                </div>
+                <div class="block__info-indicator">
+                  <p class="persentchange">Percent change</p>
+                  <div class="switch">
+                    <input type="checkbox" name="litecoin" id="lite">
+                    <label class="slider round" for="lite"></label>
+                  </div>
+                </div>
+                <div class="block__info-items">
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Hour change</p>
+                    <p class="number Hour">+266%</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Day change</p>
+                    <p class="number Day">+266%</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Week change</p>
+                    <p class="number Week">+266%</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Month change</p>
+                    <p class="number Month">+266%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block" id="Bitcoin">
+              <h3 class="block__h3">Bitcoin</h3>
+              <div class="block__info">
+                <div class="block__info-price">
+                  <p class="price">Price<span class="price-numbers">$22 526.92</span></p>
+                </div>
+                <div class="block__info-indicator">
+                  <p class="persentchange">Percent change</p>
+                  <div class="switch">
+                    <input type="checkbox" name="bit" id="bit" checked>
+                    <label class="slider round" for="bit"></label>
+                  </div>
+                </div>
+                <div class="block__info-items">
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Hour change</p>
+                    <p class="number Hour">+266%</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Day change</p>
+                    <p class="number Day">+266%</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Week change</p>
+                    <p class="number Week">+266%</p>
+                  </div>
+                  <div class="line d-flex justify-content-between">
+                    <p class="block__info-text">Month change</p>
+                    <p class="number Month">+266%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+.blocks {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  width: 31.3%;
+  min-width: 308px;
+  height: 354px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Ethereum {
+  background:url("../img/bg_ether.png") no-repeat top;
+}
+
+#Litecoin {
+  background:#353535 url("../img/bg_lith.png") no-repeat;
+
+}
+
+#Bitcoin {
+  background:#331304 url("../img/bg_bitc_.png") no-repeat;
+}
+
+.block__h3 {
+  font: 22px "Roboto", san-serif;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  height: 190px;
+}
+
+.block__info {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.price {
+  font: 20px "Roboto";
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.price-numbers {
+  display: inline-block;
+  float: right;
+}
+.block__info-indicator,.block__info-text, .number{
+  display: flex;
+  justify-content: space-between;
+  font:14px "Roboto";
+  font-weight: 700;
+  line-height: 34px;
+}
+.block__info-items{
+
+}
+.block__info-text{
+  line-height:1.5em;
+  color:rgba(255,255,255,0.2);
+}
+.number {
+  color: #70c446;
+  line-height:1.5em;
+
+}
+@import "switch";

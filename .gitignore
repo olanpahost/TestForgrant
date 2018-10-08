@@ -1,0 +1,16 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+temp.txt
+/app/img/coin.svg
+
+# misc
+npm-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db

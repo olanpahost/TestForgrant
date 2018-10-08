@@ -1,0 +1,27 @@
+@media (max-width:1030px) {
+  .select__section{
+    width:100%;
+
+  }
+  .select__menu{
+    height:100%;
+  }
+  .select__header{
+    margin-bottom: 32px;
+    &+div{
+      text-align: right;
+    }
+  }
+  .blocks{
+    justify-content: space-around;
+  }
+  .block{
+    margin:20px;
+  }
+}
+@media (max-width: 730px){
+  .blocks{
+    justify-content: center;
+  }
+
+}
