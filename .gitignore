@@ -6,7 +6,7 @@
 # IDEs and editors
 /.idea
 temp.txt
-/temp
+temp/
 
 
 # misc
